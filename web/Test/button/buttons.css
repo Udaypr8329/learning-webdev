@@ -1,0 +1,81 @@
+.SUBSCRIBE{
+    background-color: rgb(181, 4, 4);
+    color: white;
+    height: 35px;
+    width: 100px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    
+    }
+
+.SUBSCRIBE:hover{
+    opacity: 0.8;
+    transition: opacity 0.15s;  
+}
+.SUBSCRIBE:active{
+    opacity: 0.4;
+}
+    .JOIN{
+        background-color:white;
+        color: rgb(41,118,211);
+        height: 35px;
+        width: 60px;
+        border-style:solid;
+        border-width: 1px;
+        border-color: rgb(41,118,211);
+        border-radius: 2px;
+        cursor: pointer;
+        margin: 8px;
+        
+    }
+    .JOIN:hover{
+        background-color: rgb(41,118,211);
+        color: white;
+        transition: background-color .2s, color .2 s;
+    }
+    .JOIN:active{
+    opacity: 0.7;
+}
+    button.Tweet{
+        background-color:rgb(6, 130, 232);
+        color: white;
+        height: 35px;
+        width: 60px;
+        border: none;
+        border-radius: 17px;
+        cursor: pointer;
+        font-weight:bold;
+        font-size: 14px;
+    }
+    .Tweet:hover{
+        box-shadow: 5px 5px 10px rgba(0,0,0,0.20);
+        transition: box-shadow 0.2s;
+    }
+    button.Request{
+        background-color: black;
+        color: white;
+        border: none;
+        height: 40px;
+        width: 115px;
+        margin: 12px;
+    }
+    .AddtoCart{
+        background-color: rgb(255, 216, 20);
+        border-radius: 20px;
+        border: none;
+        height: 40px;
+        width: 200px;
+        font-size: 17px;
+        margin: 6px;
+    }
+    .SignUp{
+        background-color: rgb(46,164,79);
+        color: white;
+        border: none;
+        height: 40px;
+        width: 90px;
+        border-radius: 5px;
+        font-size: 16px;
+        margin: 6px;
+    }

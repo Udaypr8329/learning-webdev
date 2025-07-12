@@ -1,0 +1,48 @@
+a{
+    color: rgb(0,113,133);
+}
+a:hover{
+    color: rgb(197, 37, 37);
+}
+h3{
+    color: rgb(0,118,0);
+}
+p{
+    font-size: 18px;
+}
+.Add{
+        background-color: rgb(255, 216, 20);
+        border-radius: 20px;
+        border: none;
+        height: 30px;
+        width: 130px;
+        font-size: 14px;
+        cursor: pointer;
+    }
+.Add:hover{
+    background-color:rgb(247, 193, 57) ;
+    transition: background-color .15s;
+}
+.Add:active{
+    opacity: 0.7;
+    transition: opacity 0.15s;
+}
+
+.Buy{
+        background-color: rgb(255,164,28);
+        border-radius: 20px;
+        border: none;
+        height: 30px;
+        width: 100px;
+        font-size: 14px;
+        margin: 9px;
+        cursor: pointer;
+    }
+.Buy:hover{
+    background-color:rgb(225, 135, 2) ;
+    transition: background-color .15s;
+}
+.Buy:active{
+    opacity: 0.7;
+    transition: opacity 0.15s;
+}
