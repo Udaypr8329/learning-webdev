@@ -1,0 +1,27 @@
+.progressbar-container{
+    width: 70%;
+    height: 40px;
+    background-color: aqua;
+    border: 5px solid;
+    border-radius: 30px;
+    position: relative;
+    left: 15%;
+    top: 130px;
+}
+.progress-bar{
+    background-color: brown;
+    height: 40px;
+    border-radius: 30px;
+    animation-name: bar;
+    animation-duration: 5s;
+    
+}
+
+@keyframes bar {
+    0%{width: 0%;}
+    90%{width: 95%;}
+    93%{width: 95%;}
+    95%{width: 95%;}
+    100%{width: 100%;}
+    
+}
