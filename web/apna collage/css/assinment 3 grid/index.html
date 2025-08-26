@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            overflow: hidden;
+        }
+        .container{
+            width: 100vw;
+            height: 100vh;
+            display: grid;
+            grid-template-columns:repeat(12,1fr);
+            grid-template-rows: repeat(12,1fr);
+
+            gap: 10px;
+        }
+        .items{
+           background-color: rgb(249, 132, 132);
+            border: 2px solid;
+        }
+        .item1{
+            grid-column: 1/13;
+            grid-row: 1/2;
+        }
+        .item2{
+            grid-column: 1/4;
+            grid-row: 2/12;
+        }
+        .item3{
+            grid-column: 4/10;
+            grid-row: 3/12;
+        }
+        .item6{
+            grid-column: 4/10;
+            grid-row: 2/3;
+        }
+        .item4{
+            grid-column: 10/13;
+            grid-row: 2/12;
+        }
+        .item5{
+            grid-column: 1/13;
+            grid-row: 12/13;
+        }
+
+        @media (width:720px) {
+            .item2{
+            grid-column: 1/4;
+            grid-row: 3/12;
+            }
+            .item3{
+            grid-column: 4/13;
+            grid-row: 3/12;
+            }
+            .item5{
+            grid-column: 4/13;
+            grid-row: 12/13;
+            }
+            .item6{
+            grid-column: 1/13;
+            grid-row: 2/3;
+            }
+            .item4{
+                grid-column: 1/4;
+                grid-row: 12/13;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="items item1">header (1row , 12column)</div>
+        <div class="items item2">sidebar(10row,3column)</div>
+        <div class="items item6">nav(1row,6column)</div>
+        <div class="items item3">main(10row,6column)</div>
+        <div class="items item4">ads(10row,3column)</div>
+        <div class="items item5">footer(row12,12column)</div>
+    </div>
+</body>
+</html>

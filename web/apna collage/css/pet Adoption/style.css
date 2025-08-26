@@ -1,0 +1,47 @@
+.link{
+    height: 30px;
+}
+
+.link>a{
+    text-decoration: none;
+    font-style: italic;
+    color: goldenrod;
+}
+
+.heading{
+    font-size: 30px;
+    height: 50px;
+}
+
+.heading>span{
+    color: goldenrod;
+}
+
+.animals{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+.dog{
+    width: 300px;
+    border: 3px solid;
+    border-radius: 15px;
+}
+.dog>img{
+    margin: 5px;
+    width: 290px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.cat{
+    width: 300px;
+    border: 3px solid;
+    border-radius: 15px;
+}
+.cat>img{
+    margin: 5px;
+    width: 290px;
+    height: 200px;
+    border-radius: 10px;
+}
