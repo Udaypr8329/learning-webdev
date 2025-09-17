@@ -1,0 +1,36 @@
+*{
+  text-align: center;
+}
+
+.container{
+  margin: auto;
+  width: 350px;
+  height: 350px;
+  display: grid;
+  grid-template-columns: 180px 180px;
+  justify-items: center;
+  align-items: center;
+  
+}
+.box{
+  width: 150px;
+  height: 150px;
+  border: 5px solid;
+  border-radius: 25px;
+}
+.red{
+  background-color: red;
+}
+.blue{
+  background-color: blue;
+}
+.lightgreen{
+  background-color: lightgreen;
+}
+.lightsalmon{
+  background-color: lightsalmon;
+}
+
+.flash{
+  background-color: white;
+}
