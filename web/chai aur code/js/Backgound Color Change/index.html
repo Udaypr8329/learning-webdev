@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Color Change</title>
+    <style>
+        h1 {
+            text-transform: capitalize;
+        }
+
+        button {
+            padding: 5px 15px;
+            margin-right: 15px;
+            background-color: cornsilk;
+            border-radius: 5px;
+            border: 2px solid black;
+            font-size: larger;
+        }
+
+        button:hover {
+            cursor: grab;
+            box-shadow: 1px 1px 4px;
+        }
+
+        button:active {
+            transform: translateY(3px);
+            box-shadow: 1px 1px 2px inset;
+            background-color: #f3e6b1;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Click on the button to start and stop background Color changing</h1>
+    <button id="start">START</button>
+    <button id="stop">STOP</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
